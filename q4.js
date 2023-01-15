@@ -27,5 +27,6 @@ get_longest_string_arrow=(arr)=>
     return ans;
 
 }
+module.exports={get_longest_string,get_longest_string_arrow}
 console.log(get_longest_string(["we","love","code","academy"]));
 console.log(get_longest_string_arrow(["we","love","code","academy"]));

@@ -16,5 +16,6 @@ end_with_arrow = (st) =>
     else
         return false;
 }
+module.exports={end_with,end_with_arrow};
 console.log(end_with("javaScript"));
 console.log(end_with_arrow("javaScript"));

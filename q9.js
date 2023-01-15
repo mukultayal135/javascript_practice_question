@@ -20,5 +20,6 @@ replace_with_next_arrow = (st) =>
         })
     return update_str;
 }
+module.exports={replace_with_next,replace_with_next_arrow};
 console.log(replace_with_next("codeacademy"));
 console.log(replace_with_next_arrow("lazyinterns"));

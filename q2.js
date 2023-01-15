@@ -24,6 +24,6 @@ const same_digits_arrow = number =>
     }
     return true;
 }
-
+module.exports={same_digits,same_digits_arrow};
 console.log(same_digits(23344));
 console.log(same_digits_arrow(6666));

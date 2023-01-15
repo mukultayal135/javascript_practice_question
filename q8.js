@@ -38,5 +38,6 @@ count_vowel_arrow = (st) =>
     }
     return count;
 }
+module.exports={count_vowel,count_vowel_arrow};
 console.log(count_vowel("codeacademy"));
 console.log(count_vowel_arrow("codeacademy"));

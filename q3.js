@@ -30,6 +30,6 @@ const change_capitalisation_arrow = st =>
     }
     return ans;
 }
-
+module.exports={change_capitalisation,change_capitalisation_arrow}
 console.log(change_capitalisation("Mukul Tayal"));
 console.log(change_capitalisation_arrow("Mukul Tayal"));
